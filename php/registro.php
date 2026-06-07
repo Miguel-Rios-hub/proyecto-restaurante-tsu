@@ -1,4 +1,5 @@
 <?php
+    /*Advertencia: archivo tiene SQL injection sin corregir*/
     session_start();
     $nombre=$_POST['nombre'];
 
