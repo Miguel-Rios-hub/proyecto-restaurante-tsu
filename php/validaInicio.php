@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    echo($_SESSION['validInicioSesion']);
+    $_SESSION['validInicioSesion']=0;
+    $_SESSION['login']=false;
+    $_SESSION['TIPO']=0;
+    $_SESSION['pulsado']=0;
+    $_SESSION['busqueda']=0;
+?>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Proyecto</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="icon" href="logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.js"></script>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="formulario">
+                    <form action="php/inicioSesion.php" method="post">
+                        <h2>Iniciar Sesion</h2>
+                        <div class="input-contenedor">
+                            <input name="correo" type="email" required>
+                            <label for="#">Correo</label>
+                        </div>
+                        <div class="input-contenedor">
+                            <input name="contraseña" type="password" required>
+                            <label for="#">Contraseña</label>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-warning" type="submit">Acceder</button>
+                            <div class="registrar">
+                                <p>No tienes cuenta? <a href="registro.html">Crear una</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="java/ajax.js"></script>
+        <script src="java/index.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

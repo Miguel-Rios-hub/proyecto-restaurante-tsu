@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    echo($_SESSION['validRegistroSesion']);
+    $_SESSION['validRegistroSesion']=0;
+    $_SESSION['login']=false;
+    $_SESSION['TIPO']=0;
+    $_SESSION['pulsado']=0;
+    $_SESSION['busqueda']=0;
+?>

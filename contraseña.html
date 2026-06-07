@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Proyecto</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="icon" href="logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.js"></script>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="formulario">
+                    <form action="php/cambioContra.php" method="post">
+                        <h2>Cambiar contraseña</h2>
+                        <div class="input-contenedor">
+                            <input id="contraseña" name="contraseña" type="password" required>
+                            <label for="#">Nueva contraseña</label>
+                        </div>
+                        <div class="input-contenedor">
+                            <input id="conf_contraseña" name="conf_contraseña" type="password" required>
+                            <label for="#">Confirmar contraseña</label>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-warning" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="java/ajax.js"></script>
+        <script src="java/contra.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
