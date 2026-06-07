@@ -2,8 +2,9 @@
 
 Sistema web de pedidos para restaurante desarrollado como proyecto final de TSU en Desarrollo Móvil Multiplataforma.
 
-## Autor
+## Autores
 Miguel Angel Rios Correa
+ Manuel Jimenez Cruz
 
 ## ¿Qué hace?
 
