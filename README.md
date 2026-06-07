@@ -4,7 +4,7 @@ Sistema web de pedidos para restaurante desarrollado como proyecto final de TSU 
 
 ## Autores
 Miguel Angel Rios Correa
- Manuel Jimenez Cruz
+ Manuel Jimenez Cruz.
 
 ## ¿Qué hace?
 
